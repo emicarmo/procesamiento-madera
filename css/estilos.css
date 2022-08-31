@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+.seccion{
+    padding: 0;
+    margin: 0;
+}
+
+.seccion .contenedor-seccion{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/images/imagen-energias.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 70vh;
+}
+
+.seccion .contenedor-seccion .contenedor-seccion-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.seccion .contenedor-seccion .contenedor-seccion-titulo .presentacion{
+    font-size: 80px;
+    margin-top: 250px;
+    letter-spacing: 4px;
+}
+
+.seccion .contenedor-seccion .contenedor-seccion-titulo .titulo-nombre-planta{
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.main{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    font-weight: 900;
+}
+
+.main .contenedor-main{
+    background-color: #FFC107;
+    padding: 20px;
+}
+
+.main .contenedor-main h3{
+    text-align: center;
+    color: #198754;
+    font-weight: 900;
+}
+
+.main .info-quienes-somos{
+    font-size: 38px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main .info-quienes-somos .parrafo-quienes-somos{
+    width: 100%;
+}
+
+.main .contenedor-energias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .energias{
+    background-color: gainsboro;
+    width: 400px;
+    border-radius: 10px;
+    margin: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.main .imagen-tabla{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#section{
+    max-width: 1085px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #CDCDCD;
+    padding: 0;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#section .contenedor-formulario{
+    margin-left: 30px;
+}
+
+#section .contenedor-formulario #formulario select, input{
+    height: 30px;
+    width: 270px;
+}
+
+#section .contenedor-datos{
+    background-color: #CDCDCD;
+    margin-left: 10px;
+}
+
+#section .contenedor-datos #tabla-energia{
+    border-collapse: collapse;
+}
+
+#section .contenedor-datos #tabla-energia th,td{
+    border: 1px solid black;
+}
+
+#efectividad-eolica, #efectividad-hidroelectrica, #efectividad-solar{
+    margin: 0;
+}
+
+#energia-recomendada{
+    font-weight: bold;
+}
+
+#btn-agregar-implementacion, #btn-procesar-resultados{
+    cursor: pointer;
+    border: 2px solid #198754;
+    background-color: #198754;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+#btn-agregar-implementacion:hover, #btn-procesar-resultados:hover{
+    background-color: #FFC107;
+    color: #198754;
+    font-weight: bold;
+    border: 2px solid #FFC107;
+}
+
+.footer{
+    margin-top: 40px;
+}
+
+.footer .contenedor-footer{
+    background-color: #198754;
+    padding: 18px;
+    color: #FFC107;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer .contenedor-footer p{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .seccion .contenedor-seccion{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/images/imagen-energias.jpg');
+    background-size: cover;
+    background-position: center ;
+    height: 40vh;
+    }
+    .seccion .contenedor-seccion .contenedor-seccion-titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+    .seccion .contenedor-seccion .contenedor-seccion-titulo .presentacion{
+        font-size: 50px;
+        margin-top: 110px;
+        letter-spacing: 4px;
+    }
+    .seccion .contenedor-seccion .contenedor-seccion-titulo .titulo-nombre-planta{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .main{
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main .info-quienes-somos{
+        font-size: 28px;
+        border-radius: 10px;
+        background-color: gainsboro;
+        margin-top: 50px;
+    }
+    .main .energias{
+        background-color: gainsboro;
+        margin: 40px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+}
