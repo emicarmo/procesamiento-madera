@@ -8,7 +8,7 @@
 }
 
 .seccion .contenedor-seccion{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/images/imagen-energias.jpg');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('images/imagen-energias.jpg');
     background-size: cover;
     background-position: center ;
     height: 70vh;
