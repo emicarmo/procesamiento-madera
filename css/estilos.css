@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/imagen-energias.jpg") no-repeat;
+    background-size: cover;
+}
+
+.contendor-seccion-titulo, .contenedor-seccion-energias, .contendor-seccion-link{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.contendor-seccion-titulo, .contendor-seccion-link{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 100px;
+}
+
+.contenedor-seccion-energias{
+    justify-content: space-around;
+    align-items: center;
+    line-height: 100px;
+}
+
+a{
+    color: tomato !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: crimson !important;
+}
+
+h1,h3,h4,a{
+    font-size: 50px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.formulario
+{
+    width: 300px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.campo
+{
+    margin: 10px 0;
+}
+
+.campo label
+{
+    display: block;
+}
+
+.campo input,
+.campo select
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button
+{
+    cursor: pointer;
+    height: 40px;
+    width: 70%;    
+}
+
+#btn-procesar:hover
+{
+    background-color: orange;
+}
+
+#btn-agregar:hover
+{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+table
+{
+    border: 2px solid crimson;
+    border-collapse: collapse;
+}
+
+th, tr, td
+{
+    border: 2px solid crimson;    
+}
+
+main
+{
+    background-color: #ccc;
+    width: calc(100% - 300px);
+    height: 100vh;
+    float: right;
+}
